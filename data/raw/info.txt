@@ -1,0 +1,1 @@
+Directory for pdb-files of the dataset. 
