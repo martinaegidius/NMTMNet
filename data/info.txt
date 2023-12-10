@@ -1,0 +1,1 @@
+Folder to which processed and raw directories should be added. Can be downloaded from https://drive.google.com/drive/folders/1dUCoN0khw_G7c5_C7fN-TPxaMiKJYMgb?usp=sharing
