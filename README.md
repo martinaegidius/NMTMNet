@@ -1,8 +1,7 @@
-# NMTMNet
-Repository for the implementation of the Non-Markovian Transmembrane Net, a model trained on the DeepTMHMM data-set. The tasks of the project are:
+# Welcome to NMTMNet for transmembrane protein prediction and classification!
+This repository contains all implementational details of the Non-Markovian Transmembrane Network, a 1.8M parameter-model trained on the DeepTMHMM data-set. The training tasks are:
 1. Classify proteins with respect to membrane topology (alpha-transmembrane, alpha-transmembrane with signal peptide, signal peptide, globular protein and beta-barrels)
 2. Generate per-residue topology predictions (Inside cell, part of signal peptide, cytosolic domain, part of alpha-helix (transmembrane), part of beta-barrel (transmembrane)
-
 
 Compared to the DeepTMHMM baseline, our results are:
 | **Classification** | **DeepTMHMM** | **NMTMNet** |
@@ -22,6 +21,16 @@ Compared to the DeepTMHMM baseline, our results are:
 |   **GLOB**   |   **0.985**   |    0.980    |
 |   **BETA**   |     0.875     |    0.875    |
 
-Want to reproduce or try the pipeline? 
-Simply open the jupyter-notebook (e.g. in Google Colab) and run it. Parameters are loaded from param_cfg.json. 
+NMTMNet works a bit different compared to other transmembrane-networks, as we do not impose topological constraints on predictions of any kind or assuming adherence to the Markov-property. The fraction of invalid protein-predictions using this approach is <0.7%. 
+
+# Want to reproduce results or try the pipeline? 
+Simply open the jupyter-notebook (e.g. in Google Colab) and run it. Parameters are loaded from param_cfg.json. The jupyter-notebook contains the newest version of the pipeline.
+
+# A small illustration of how it's done
+![](images/pipeline.png?raw=true)
+
+
+# Thanks for having a look :-) 
+
+
 
