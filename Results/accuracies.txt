@@ -1,0 +1,1 @@
+{"Train accuracy": 0.9975540637969971, "Train accuracy overlap": 0.9920037629350894, "Validation accuracy": 0.96375572681427, "Validation accuracy overlap": 0.9167842031029619, "Test accuracy": 0.9711064696311951, "Test accuracy overlap": 0.9275568181818182}
